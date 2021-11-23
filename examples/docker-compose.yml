@@ -1,0 +1,7 @@
+version: '2.1'
+services:
+  arduino-cli:
+    restart: always
+    image: ghcr.io/bucknalla/arduino-cli-block:latest
+    ports:
+      - "50051:50051"

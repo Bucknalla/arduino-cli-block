@@ -1,18 +1,18 @@
-name: template
+name: arduino-cli
 description: >-
-  Template block enabling you to get started building balenablocks for your projects and fleets.
-fleetcta: Template balenablock
+  This balenaBlock provides access to the Arduino CLI tool
+fleetcta: Arduino CLI
 version: 0.0.1
 type: sw.application
 assets:
   repository:
     type: blob.asset
     data:
-      url: 'https://github.com/balenablocks/template'
+      url: 'https://github.com/Bucknalla/arduino-cli-block'
   logo:
     type: blob.asset
     data:
-      url: 'https://raw.githubusercontent.com/balenablocks/template/main/docs/images/icon.png'
+      url: 'https://raw.githubusercontent.com/Bucknalla/arduino-cli-block/main/docs/images/icon.png'
 data:
   defaultDeviceType: raspberrypi3
   supportedDeviceTypes:
